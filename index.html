@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudith Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS Reset */
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/bggggg.jpg');
+            background-size: 1200px;
+            height:0px;
+        }
+        .left {
+            display: inline-block;
+            /* border: 2px solid rgb(225, 220, 220); */
+            position: absolute;
+            left: 2px;
+            top: 2px;
+
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%)
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 35%;
+            margin: 14px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            position: absolute;
+            right: 7px;
+            top: 19px;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .navbar li a {
+            color: rgb(250, 250, 250);
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(205, 205, 240)
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color:black;
+            color: rgb(119, 116, 116);
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container {
+
+            border: 2px solid white;
+            margin: 100px 490px;
+            padding: 38px 54px;
+            width: 32%;
+            border-radius: 50px;
+            color:aliceblue;
+        }
+        .formgroup input{
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            display: block;
+            width: 316px;
+            padding: 4px;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 8px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width:74%;
+            margin:15px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/logo.webp" alt="">
+        </div>
+        <!-- mid bar for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li><b></b>
+                <li><a href="#">About</a></li><b></b>
+                <li><a href="#">Fitness Center</a></li><b></b>
+                <li><a href="#">Contact Us</a></li><b></b>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Fitness Freak!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Email Id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+                        <!-- Designed by Mudith Nahata -->
+</body>
+</html>
