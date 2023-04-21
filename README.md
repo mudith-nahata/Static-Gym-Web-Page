@@ -1,2 +1,2 @@
 # Static-Gym-Web-Page
-A simple Static Web Page Using HTML||CSS
+A simple Static Web Application Using HTML||CSS
